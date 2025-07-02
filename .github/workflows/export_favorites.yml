@@ -3,6 +3,8 @@ name: 导出收藏夹数据
 on:
 #  schedule:
 #    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       IN_JM_USERNAME:
